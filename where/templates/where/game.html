@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/static/stylemin.css">
+  </head>
+  <body>
+    <h2>fuck</h2>
+    <div class="mar">
+      <h2>fuck</h2>
+      <h1>aatmosfera</h1>
+      {% for games in random_gamess %}
+        <div class="">
+          <a href="{% url 'where:detailgame' slug=games.slug %}"><img src="{{ games.thumb.url }}"/></a>
+
+        </div>
+      {% endfor %}
+      <div class="right">
+        <h2>jaja</h2>
+
+      </div>
+    </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/static/styles.css">
+
+  </head>
+  <body>
+    <div class="header">
+
+        <h2><a href="rocket">Minimalism</a></h2>
+        <h2><a href="abstraction">Abstraction</a></h2>
+        <h2><a href="{% url 'arts:landscapes'%}">Landscapes</a></h2>
+        <h2><a href="{% url 'where:game' %}">From Games</a></h2>
+        <h2><a href="{% url 'where:film' %}">From Films</a></h2>
+
+        <h2 class="rock"><a href="{% url 'accounts:signup' %}">Зарегестироваться</a></h2>
+        <h2 class="duck"><a href="{% url 'accounts:login' %}">Войти</a></h2>
+    </div>
+    <div class="down">
+      <em class="offer"><a href="{% url 'affer:tag_create_url' %}">Offer picture</a></em>
+    </div>
+    <div class="basement">
+      <a href="https://vk.com/public195225601">Наш ВК</a>
+    </div>
+
+  </body>
+</html>

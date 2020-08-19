@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/static/styledet.css">
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+
+    </form>
+
+    <div class="header">
+      <h2 class="name">{{ minimalism.title }}</h2>
+      <a class="download" download href="{{ minimalism.thumb.url }}">Download Picture</a><br>
+      <a class="homep" href="{% url 'arts:home' %}">Home Page</a><br>
+    </div>
+
+
+
+
+      <div class="content">
+        <img src="{{ minimalism.thumb.url }}" />
+
+      </div>
+
+
+
+
+  </body>
+</html>

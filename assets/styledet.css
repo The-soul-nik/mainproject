@@ -1,0 +1,95 @@
+body{
+    background-color: #10100B;
+}
+
+img{
+  width: 1100px;
+  height: auto;
+  border: 2px solid #D2A456;
+  float: left;
+
+}
+
+.header{
+  width: 396px;
+  position: fixed;
+  margin-top: 200px;
+  margin-left: 1100px;
+  margin-top: 10px;
+
+}
+
+.download{
+
+  font-size: 30px;
+  padding-right: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid black;
+  color: white;
+  text-decoration: none;
+  background-color: #F4A460;
+  border-radius: 20px;
+  margin-left: 50px;
+
+
+}
+.name{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: cursive;
+}
+
+.download:hover{
+  background-color: #FF8C00;
+  color: #FFFACD;
+}
+.homepage{
+  font-size: 30px;
+  padding-right: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid black;
+  color: white;
+  text-decoration: none;
+  background-color: #F4A460;
+}
+
+.homep:hover{
+  background-color: #FF8C00;
+  color: #FFFACD;
+}
+.other{
+  margin-bottom: 10px;
+  float: right;
+  margin-top: 150px;
+  margin-right: 210px;
+  position: relative;
+  float: right;
+}
+
+.homepage{
+  border-radius:  20px;
+  float: right;
+  position: fixed;
+}
+.homep{
+  font-size: 30px;
+  padding-right: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid black;
+  color: white;
+  text-decoration: none;
+  background-color: #F4A460;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-top: 10px;
+  position: absolute;
+
+
+}

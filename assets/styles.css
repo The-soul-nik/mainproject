@@ -1,0 +1,47 @@
+body{
+  background-image: url(/static/formin.png);
+  background-attachment: fixed;
+  background-position: center;
+  user-select: none;
+
+}
+a{
+  color: #D1C7A6;
+  text-decoration: none;
+  margin-left: 15px;
+  border-left: 2px solid #D2A456;
+  padding-left: 5px;
+
+
+}
+
+div{
+  margin-top: 30px;
+  display: flex;
+  font-family: sans-serif;
+  text-align: left;
+
+
+
+}
+a:hover{
+  color: #DFC571;
+}
+
+
+.down{
+  float: right;
+}
+.offer{
+  margin-right: 50px;
+  margin-top: 550px;
+  border: 1px solid #F4A460;
+  background-color: #F4A460;
+  border-radius: 20px;
+}
+
+.basement{
+  margin-top: 900px;
+  background-color: #B26231;
+  height: 300px;
+}

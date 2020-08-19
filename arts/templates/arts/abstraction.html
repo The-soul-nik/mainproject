@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/static/stylemin.css">
+  </head>
+  <body>
+    <h2>hddh</h2>
+    <div class="abs">
+      <h2>fuck</h2>
+      {% for abstraction in random_abstractions %}
+        <div class="abstr">
+          <a href="{% url 'arts:detailsabs' slug=abstraction.slug %}"><img src="{{ abstraction.thumb.url }}"/></a>
+
+        </div>
+      {% endfor %}
+  </body>
+</html>
